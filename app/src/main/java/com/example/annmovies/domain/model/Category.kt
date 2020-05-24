@@ -5,5 +5,5 @@ package com.example.annmovies.domain.model
  */
 data class Category(
     private val id: Int,
-    private val name: String
+    val name: String
 )
