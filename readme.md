@@ -11,3 +11,6 @@ This are some of the topics that we will cover:
 
 
 This file is not finished...
+
+![alt text](https://github.com/anncode1/AnnMovies/blob/master/images/movie_1.png "Screen 1")
+![alt text](https://github.com/anncode1/AnnMovies/blob/master/images/movie_2.png "Screen 2")
