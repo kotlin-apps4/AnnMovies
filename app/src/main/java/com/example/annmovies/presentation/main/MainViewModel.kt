@@ -28,7 +28,7 @@ class MainViewModel(private val categoryUseCase: GetCategory) : ViewModel() {
         categoryState.value = Loading(listOf())
         val result = categoryUseCase.invoke()
         when (result) {
-            is Result.Sucess -> categoryState.postValue(Categories(result.value))
+            is Result.Success -> categoryState.postValue(Categories(result.value))
             is Result.Error -> categoryState.postValue(CategoryState.Error(result.error.message.toString(), listOf()))
         }
     }
